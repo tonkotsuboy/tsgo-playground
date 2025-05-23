@@ -1,0 +1,17 @@
+{
+  "name": "2025-05-23-tsgo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:tsc": "tsc -p . --extendedDiagnostics",
+    "build:tsgo": "tsgo -p . --extendedDiagnostics"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@typescript/native-preview": "^7.0.0-dev.20250523.1",
+    "typescript": "^5.8.3"
+  }
+}
